@@ -25,9 +25,9 @@ setup(
     install_requires=[
         'six',
         'urllib3',
-        'requests==2.5.3',
-        'requests-cache>=0.4.7',
-        'grequests==0.2.0',
+        'requests==2.11.1',
+        'requests-cache>=0.4.12',
+        'grequests==0.3.0',
         'easydict',
     ],
     tests_require = ['pytest-timeout'],
